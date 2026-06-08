@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-// DIKERJAKAN OLEH CLARA, Laptop Clara rusak, jadi dia pinjam laptop saya (Richard) untuk mengerjakan tugas ini
 use Illuminate\Database\Eloquent\Model;
 
 class Order extends Model
