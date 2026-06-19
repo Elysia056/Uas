@@ -1,4 +1,4 @@
-{{-- DIKERJAKAN OLEH: E --}}
+
 @extends('layouts.app')
 
 @section('title', 'Detail Wishlist')
