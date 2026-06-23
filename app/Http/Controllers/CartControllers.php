@@ -28,7 +28,6 @@ class CartController extends Controller
             'quantity' => ['required', 'integer', 'min:1'],
         ]);
 
-        // Cek apakah produk sudah ada di cart atau belum
         $existingCart = Cart::where('user_id', Auth::id())
             ->where('product_id', $request->product_id)
             ->first();
